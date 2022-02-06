@@ -109,6 +109,9 @@
           unityI.SendMessage('YandexSDK', 'AuthenticateSuccess', JSON.stringify(_info));
         });
       }
+      function authRep(){
+        
+      }
 
       function getUserData(){
         vkBridge.send("VKWebAppStorageGet",{"keys":["_save"]}).then(data =>{
